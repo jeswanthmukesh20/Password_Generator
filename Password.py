@@ -99,7 +99,7 @@ class Password:
 
 
 if __name__ == "__main__":
-	passw = Password(Length=44, print_info=False) # if print_info=True It will print the information of of the given password
+	passw = Password(Length=23,print_info=True) # if print_info=True It will print the information of of the given password
 	# Password(default=True) will give default password length from 4 to 23
 	# Password(Length=12) Length stands for length of the password you want
 	print(passw)
